@@ -1,0 +1,4 @@
+tasks.configureEach({
+    sourceCompatibility = "12"
+    targetCompatibility = "12"
+})

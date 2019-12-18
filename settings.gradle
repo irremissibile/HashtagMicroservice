@@ -1,0 +1,6 @@
+rootProject.name = 'HashtagMicroservice'
+
+include 'hashtags'
+
+project(':hashtags').projectDir = file('hashtags')
+

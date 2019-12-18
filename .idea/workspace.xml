@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3924614-0bfa-456f-b829-4fe550410f91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/demo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/model/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/verticles/MainProcessorVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/verticles/MicroserviceVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/verticles/kafka/DeleteListenerVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/verticles/kafka/UpdateListenerVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/vertx/common/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/vertx/common/MicroserviceVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hashtags/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/demo/ProfilesClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/model/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/model/ConfigMessageCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/model/ConfigMessageCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/model/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/model/ProfileMessageCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/services/ProfileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/verticles/ApiVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/verticles/ConfigurationVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashtags/src/main/java/hashtags/verticles/ConfigurationVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/verticles/MainVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/verticles/ProfilesVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/java/profiles/verticles/ServiceDiscoveryVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/src/main/proto/profile.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/ca.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/ca.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/cert.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/instruction.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/server.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/server.csr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/server.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssl/server.pem" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/profiles">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hashtags">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+                <item name="hashtags" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+                <item name="hashtags" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+                <item name="hashtags" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HashtagMicroservice" type="f1a62948:ProjectNode" />
+                <item name="hashtags" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UeiRuhMqZ0rU9R3XKikyQfwPNg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="profiles.verticles" />
+      <recent name="profiles.verticles.kafka.repositories" />
+      <recent name="profiles.verticles.kafka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profiles/src/main/proto/interest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="profiles.verticles" />
+      <recent name="profiles.services" />
+      <recent name="interest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profiles/src/main/proto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="hashtags.demo.Client" />
+      <module name="vertx-starter-pack.profiles.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtags.Launcher" />
+      <module name="HashtagMicroservice.hashtags.main" />
+      <option name="PROGRAM_PARAMETERS" value="run hashtags.verticles.MainVerticle -cluster" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ABABAGALAMAGA:hashtags [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hashtags" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vertx-starter-pack [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vertx-starter-pack:profiles [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/profiles" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="ABABAGALAMAGA" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="ABABAGALAMAGA" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Gradle.vertx-starter-pack [jar]" />
+      <item itemvalue="Gradle.vertx-starter-pack:profiles [jar]" />
+      <item itemvalue="Gradle.ABABAGALAMAGA:hashtags [compileJava]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ABABAGALAMAGA:hashtags [compileJava]" />
+        <item itemvalue="Gradle.vertx-starter-pack:profiles [jar]" />
+        <item itemvalue="Gradle.vertx-starter-pack [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3924614-0bfa-456f-b829-4fe550410f91" name="Default Changelist" comment="" />
+      <created>1575723456671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575723456671</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="141" width="642" height="757" key="#ABABAGALAMAGA:hashtags_[compileJava]" timestamp="1576702848405">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="634" y="141" width="642" height="757" key="#ABABAGALAMAGA:hashtags_[compileJava]/0.24.1920.993@0.24.1920.993" timestamp="1576702848405" />
+    <state x="555" y="182" width="800" height="675" key="#Auto_Import" timestamp="1576444360597">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="555" y="182" width="800" height="675" key="#Auto_Import/0.24.1920.993@0.24.1920.993" timestamp="1576444360597" />
+    <state x="619" y="176" width="685" height="686" key="#Launcher" timestamp="1576697923505">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="619" y="176" width="685" height="686" key="#Launcher/0.24.1920.993@0.24.1920.993" timestamp="1576697923505" />
+    <state x="555" y="182" width="800" height="675" key="#Project_Structure" timestamp="1576703275547">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="555" y="182" width="800" height="675" key="#Project_Structure/0.24.1920.993@0.24.1920.993" timestamp="1576703275547" />
+    <state x="619" y="176" width="671" height="686" key="#Unnamed" timestamp="1575881376200">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="619" y="176" width="671" height="686" key="#Unnamed/0.24.1920.993@0.24.1920.993" timestamp="1575881376200" />
+    <state x="418" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576702718527">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="418" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.993@0.24.1920.993" timestamp="1576702718527" />
+    <state x="630" y="325" width="649" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575731822038">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="630" y="325" width="649" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.993@0.24.1920.993" timestamp="1575731822038" />
+    <state x="768" y="232" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1576611485429">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="768" y="232" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.24.1920.993@0.24.1920.993" timestamp="1576611485429" />
+    <state x="692" y="306" width="525" height="426" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576702505158">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="692" y="306" width="525" height="426" key="#com.intellij.ide.util.TreeClassChooserDialog/0.24.1920.993@0.24.1920.993" timestamp="1576702505158" />
+    <state x="801" y="412" width="308" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575723757925">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="801" y="412" width="308" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.24.1920.993@0.24.1920.993" timestamp="1575723757925" />
+    <state x="348" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576698178782">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="348" y="438" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.24.1920.993@0.24.1920.993" timestamp="1576698178782" />
+    <state x="596" y="380" width="782" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576689486744">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="596" y="380" width="782" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.24.1920.993@0.24.1920.993" timestamp="1576689486744" />
+    <state x="634" y="141" width="642" height="757" key="#vertx-starter-pack_[jar]" timestamp="1575854014545">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="634" y="141" width="642" height="757" key="#vertx-starter-pack_[jar]/0.24.1920.993@0.24.1920.993" timestamp="1575854014545" />
+    <state x="743" y="278" width="424" height="482" key="FileChooserDialogImpl" timestamp="1576702857456">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="743" y="278" width="424" height="482" key="FileChooserDialogImpl/0.24.1920.993@0.24.1920.993" timestamp="1576702857456" />
+    <state width="1874" height="256" key="GridCell.Tab.0.bottom" timestamp="1576703916299">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="256" key="GridCell.Tab.0.bottom/0.24.1920.993@0.24.1920.993" timestamp="1576703916299" />
+    <state width="1874" height="256" key="GridCell.Tab.0.center" timestamp="1576703916297">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="256" key="GridCell.Tab.0.center/0.24.1920.993@0.24.1920.993" timestamp="1576703916297" />
+    <state width="1874" height="256" key="GridCell.Tab.0.left" timestamp="1576703916296">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="256" key="GridCell.Tab.0.left/0.24.1920.993@0.24.1920.993" timestamp="1576703916296" />
+    <state width="1874" height="256" key="GridCell.Tab.0.right" timestamp="1576703916298">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="256" key="GridCell.Tab.0.right/0.24.1920.993@0.24.1920.993" timestamp="1576703916298" />
+    <state width="1874" height="320" key="GridCell.Tab.1.bottom" timestamp="1576303504479">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="320" key="GridCell.Tab.1.bottom/0.24.1920.993@0.24.1920.993" timestamp="1576303504479" />
+    <state width="1874" height="320" key="GridCell.Tab.1.center" timestamp="1576303504479">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="320" key="GridCell.Tab.1.center/0.24.1920.993@0.24.1920.993" timestamp="1576303504479" />
+    <state width="1874" height="320" key="GridCell.Tab.1.left" timestamp="1576303504478">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="320" key="GridCell.Tab.1.left/0.24.1920.993@0.24.1920.993" timestamp="1576303504478" />
+    <state width="1874" height="320" key="GridCell.Tab.1.right" timestamp="1576303504479">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state width="1874" height="320" key="GridCell.Tab.1.right/0.24.1920.993@0.24.1920.993" timestamp="1576303504479" />
+    <state x="540" y="218" width="819" height="600" key="NewModule_or_Project.wizard" timestamp="1576702312573">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="540" y="218" width="819" height="600" key="NewModule_or_Project.wizard/0.24.1920.993@0.24.1920.993" timestamp="1576702312573" />
+    <state x="443" y="98" width="1024" height="843" key="SettingsEditor" timestamp="1576703816881">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="443" y="98" width="1024" height="843" key="SettingsEditor/0.24.1920.993@0.24.1920.993" timestamp="1576703816880" />
+    <state x="269" y="219" width="1372" height="601" key="new project wizard" timestamp="1575736225326">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="269" y="219" width="1372" height="601" key="new project wizard/0.24.1920.993@0.24.1920.993" timestamp="1575736225326" />
+    <state x="624" y="238" key="run.anything.popup" timestamp="1576604622859">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="624" y="238" key="run.anything.popup/0.24.1920.993@0.24.1920.993" timestamp="1576604622859" />
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1576603888800">
+      <screen x="0" y="24" width="1920" height="993" />
+    </state>
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup/0.24.1920.993@0.24.1920.993" timestamp="1576603888800" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vertx_starter_pack$Client.ic" NAME="Client Coverage Results" MODIFIED="1576312847815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

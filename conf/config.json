@@ -1,0 +1,19 @@
+{
+  "endpoint": {
+    "host": "0.0.0.0",
+    "port": "50051"
+  },
+
+  "kafka": {
+      "bootstrap_servers": "localhost:9092",
+      "update_topic": "createtimelapsetopic",
+      "update_group": "updateVert",
+      "delete_topic": "deletetimelapsetopic",
+      "delete_group": "deleteVert",
+      "hashtagrepo_topic": "hashtagrepo",
+      "hashtagrepo_id_config": "hashtagRepository",
+      "timelapserepo_topic": "timelapserepo",
+      "timelapserepo_id_config": "timelapseRepository",
+      "output_topic": "hashtagsoutput"
+  }
+}
